@@ -18,11 +18,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   });
   
-  ```
+
   scrollBtn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
-  ```
+
   
   }
   
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let count = 0;
   const increment = target / 60;
   
-  ```
+
   const update = () => {
     count += increment;
     if (count < target) {
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
   
   update();
-  ```
+
   
   }
   
@@ -132,11 +132,11 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", function (e) {
   e.preventDefault();
   
-  ```
+
   form.style.display = "none";
   const success = document.getElementById("formSuccess");
   if (success) success.style.display = "block";
-  ```
+
   
   });
   }
