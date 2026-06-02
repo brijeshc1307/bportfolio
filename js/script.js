@@ -147,9 +147,8 @@ async function submitForm() {
   if (btn) { btn.disabled = true; btn.innerHTML = '<i class="bi bi-hourglass-split"></i> Sending…'; }
 
   try {
-    // ⚠️  Replace YOUR_FORM_ID below with your Formspree form ID
-    // Sign up free at https://formspree.io → New Form → copy the ID
-    const FORMSPREE_ID = 'YOUR_FORM_ID';
+    //https://formspree.io/f/mykvrroq
+    const FORMSPREE_ID = 'mykvrroq';
 
     const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
       method: 'POST',
